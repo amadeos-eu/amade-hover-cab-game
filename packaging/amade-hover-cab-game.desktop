@@ -1,0 +1,24 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=amadeOS Hover Cab
+Name[de]=amadeOS Hover Cab
+Name[fr]=amadeOS Hover Cab
+Name[es]=amadeOS Hover Cab
+Name[it]=amadeOS Hover Cab
+GenericName=Flying Taxi Game
+GenericName[de]=Flugtaxi-Spiel
+GenericName[fr]=Jeu de taxi volant
+GenericName[es]=Juego de taxi volador
+GenericName[it]=Gioco del taxi volante
+Comment=Fly a jet-powered cab through twelve shifts, land on the pads and take the passengers where they want to go
+Comment[de]=Fliegen Sie ein Düsentaxi durch zwölf Schichten, landen Sie auf den Plattformen und bringen Sie die Fahrgäste ans Ziel
+Comment[fr]=Pilotez un taxi à réacteurs pendant douze services, posez-vous sur les plateformes et emmenez les passagers où ils veulent aller
+Comment[es]=Pilote un taxi a reacción durante doce turnos, aterrice en las plataformas y lleve a los pasajeros adonde quieren ir
+Comment[it]=Pilota un taxi a getti per dodici turni, atterra sulle piazzole e porta i passeggeri dove vogliono andare
+Icon=amade-hover-cab-game
+Exec=/usr/bin/amade-hover-cab-game
+Terminal=false
+Categories=Game;ArcadeGame;
+Keywords=taxi;cab;flying;landing;gravity;jets;passengers;gamepad;arcade;game;
+StartupNotify=true

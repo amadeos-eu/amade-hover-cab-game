@@ -1,0 +1,28 @@
+# Shift 10: an orbit station. Little gravity and no air: what moves keeps moving.
+name Orbit Station
+theme space
+gravity 0.4
+air 0.02
+gate 60 160
+start 2
+
+block hull 0 370 640 30              # the main hull
+block hull 40 260 120 40
+block hull 250 300 140 70
+block hull 470 200 130 50
+block hull 200 130 120 30
+block steel 330 140 120 8            # a solar panel
+beam 450 144 470 210
+block hull 520 330 100 40
+
+deco dish 140 260
+deco antenna 300 300
+deco antenna 580 200
+
+pad 1 50 260 100
+pad 2 260 300 120
+pad 3 480 200 110
+pad 4 205 130 110
+fuel 530 330 80
+
+riders 1>3 4>2 3>1 2>4 1>3 4>up

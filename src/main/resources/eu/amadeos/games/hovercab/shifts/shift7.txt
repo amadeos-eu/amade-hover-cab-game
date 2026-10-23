@@ -1,0 +1,23 @@
+# Shift 7: a factory. Pad 2 is a lift that goes up and down; a piston comes down from the roof.
+name The Lift
+theme factory
+gate 30 110
+start 3
+
+block steel 0 370 640 30             # the floor
+block concrete 0 200 110 170
+block concrete 270 180 100 190
+block concrete 460 230 180 140
+
+deco pipe 120 370
+deco chimney 300 180
+deco crane 600 230
+
+pad 1 10 200 90
+lift 2 160 300 60 140 8
+pad 3 280 180 80
+pad 4 470 230 74
+fuel 560 230 70
+mover steel 486 36 40 60 0 64 3 0
+
+riders 1>2 2>4 3>2 4>1 2>3 1>up

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- AppStream metadata of amade-hover-cab-game, installed as /usr/share/metainfo/eu.amadeos.games.hovercab.metainfo.xml.
+     amadeOS Software shows it for the installed package; a repository's appstream-generator reads it too. -->
+<component type="desktop-application">
+  <id>eu.amadeos.games.hovercab</id>
+  <metadata_license>CC0-1.0</metadata_license>
+  <project_license>EUPL-1.2</project_license>
+
+  <name>amadeOS Hover Cab</name>
+
+  <summary>Fly a jet-powered cab through twelve shifts, land on the pads and take the passengers where they want to go</summary>
+  <summary xml:lang="de">Ein Düsentaxi durch zwölf Schichten fliegen, auf den Plattformen landen und die Fahrgäste ans Ziel bringen</summary>
+  <summary xml:lang="fr">Pilotez un taxi à réacteurs pendant douze services, posez-vous sur les plateformes et emmenez les passagers où ils veulent aller</summary>
+  <summary xml:lang="es">Pilote un taxi a reacción durante doce turnos, aterrice en las plataformas y lleve a los pasajeros adonde quieren ir</summary>
+  <summary xml:lang="it">Pilota un taxi a getti per dodici turni, atterra sulle piazzole e porta i passeggeri dove vogliono andare</summary>
+
+  <description>
+    <p>The flying cab of the amadeOS desktop: steer a cab with a main jet, side jets and a roof jet against gravity and wind, land gently on numbered pads, pick up the passengers who hail you and fly them to the pad they ask for. The last passenger of a shift wants up, through the gate in the ceiling.</p>
+    <p xml:lang="de">Das Flugtaxi des amadeOS-Desktops: Steuern Sie ein Taxi mit Hauptdüse, Seitendüsen und Dachdüse gegen Schwerkraft und Wind, landen Sie sanft auf nummerierten Plattformen, nehmen Sie die Fahrgäste auf, die Sie rufen, und fliegen Sie sie zur gewünschten Plattform. Der letzte Fahrgast einer Schicht will nach oben, durch das Tor in der Decke.</p>
+    <p xml:lang="fr">Le taxi volant du bureau amadeOS : dirigez un taxi avec un réacteur principal, des réacteurs latéraux et un réacteur de toit contre la gravité et le vent, posez-vous en douceur sur des plateformes numérotées, prenez les passagers qui vous hèlent et emmenez-les à la plateforme demandée. Le dernier passager d'un service veut monter, par la trappe du plafond.</p>
+    <p xml:lang="es">El taxi volador del escritorio amadeOS: dirija un taxi con un propulsor principal, propulsores laterales y uno en el techo contra la gravedad y el viento, aterrice con suavidad en plataformas numeradas, recoja a los pasajeros que le llaman y llévelos a la plataforma que piden. El último pasajero de un turno quiere subir, por la compuerta del techo.</p>
+    <p xml:lang="it">Il taxi volante del desktop amadeOS: guida un taxi con un getto principale, getti laterali e un getto sul tetto contro la gravità e il vento, atterra dolcemente su piazzole numerate, prendi i passeggeri che ti chiamano e portali alla piazzola che chiedono. L'ultimo passeggero di un turno vuole salire, dal portello nel soffitto.</p>
+    <ul>
+      <li>Twelve shifts: rooftops, a harbour, a mine, a canyon, a factory with a lift, ice peaks, an orbit station, a storm at sea</li>
+      <li xml:lang="de">Zwölf Schichten: Dächer, ein Hafen, ein Bergwerk, eine Schlucht, eine Fabrik mit Aufzug, Eisgipfel, eine Orbitalstation, ein Sturm auf See</li>
+      <li xml:lang="fr">Douze services : des toits, un port, une mine, un canyon, une usine avec un ascenseur, des pics glacés, une station orbitale, une tempête en mer</li>
+      <li xml:lang="es">Doce turnos: azoteas, un puerto, una mina, un cañón, una fábrica con ascensor, picos helados, una estación orbital, una tormenta en el mar</li>
+      <li xml:lang="it">Dodici turni: tetti, un porto, una miniera, un canyon, una fabbrica con ascensore, picchi ghiacciati, una stazione orbitale, una tempesta in mare</li>
+      <li>The passengers call out in synthesized voices, in five languages</li>
+      <li xml:lang="de">Die Fahrgäste rufen mit synthetischen Stimmen, in fünf Sprachen</li>
+      <li xml:lang="fr">Les passagers appellent avec des voix de synthèse, en cinq langues</li>
+      <li xml:lang="es">Los pasajeros llaman con voces sintéticas, en cinco idiomas</li>
+      <li xml:lang="it">I passeggeri chiamano con voci sintetiche, in cinque lingue</li>
+      <li>Fares, tips and the best earnings are kept</li>
+      <li xml:lang="de">Fahrpreise, Trinkgeld und die besten Einnahmen werden festgehalten</li>
+      <li xml:lang="fr">Les courses, les pourboires et les meilleures recettes sont conservés</li>
+      <li xml:lang="es">Se guardan las tarifas, las propinas y las mejores ganancias</li>
+      <li xml:lang="it">Corse, mance e i migliori guadagni vengono conservati</li>
+      <li>Keyboard or gamepad</li>
+      <li xml:lang="de">Tastatur oder Gamepad</li>
+      <li xml:lang="fr">Clavier ou manette</li>
+      <li xml:lang="es">Teclado o mando</li>
+      <li xml:lang="it">Tastiera o gamepad</li>
+      <li>Built on amade-game-engine; plays on other operating systems as well</li>
+      <li xml:lang="de">Gebaut auf amade-game-engine; läuft auch auf anderen Betriebssystemen</li>
+      <li xml:lang="fr">Construit sur amade-game-engine ; fonctionne aussi sur d'autres systèmes d'exploitation</li>
+      <li xml:lang="es">Hecho con amade-game-engine; funciona también en otros sistemas operativos</li>
+      <li xml:lang="it">Costruito su amade-game-engine; funziona anche su altri sistemi operativi</li>
+    </ul>
+  </description>
+
+  <launchable type="desktop-id">amade-hover-cab-game.desktop</launchable>
+  <icon type="stock">amade-hover-cab-game</icon>
+  <categories>
+    <category>Game</category>
+    <category>ArcadeGame</category>
+  </categories>
+
+  <url type="homepage">https://github.com/datazuul/amade-hover-cab-game</url>
+  <url type="bugtracker">https://github.com/datazuul/amade-hover-cab-game/issues</url>
+  <developer id="eu.amadeos">
+    <name>amadeOS Project</name>
+  </developer>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>A fare over Harbour Heights at dusk</caption>
+      <caption xml:lang="de">Eine Fahrt über den Hafenhöhen in der Dämmerung</caption>
+      <caption xml:lang="fr">Une course au-dessus des hauts du port, au crépuscule</caption>
+      <caption xml:lang="es">Una carrera sobre las alturas del puerto al anochecer</caption>
+      <caption xml:lang="it">Una corsa sopra le alture del porto, al tramonto</caption>
+      <image>https://raw.githubusercontent.com/datazuul/amade-hover-cab-game/main/docs/screenshots/amade-hover-cab-game.png</image>
+    </screenshot>
+  </screenshots>
+
+  <provides>
+    <binary>amade-hover-cab-game</binary>
+  </provides>
+  <content_rating type="oars-1.1">
+    <content_attribute id="violence-cartoon">mild</content_attribute>
+  </content_rating>
+</component>
