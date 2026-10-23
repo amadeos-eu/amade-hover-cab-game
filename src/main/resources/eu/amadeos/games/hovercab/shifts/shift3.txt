@@ -1,0 +1,36 @@
+# Shift 3: a harbour at dusk. Two towers, a pier with the fuel pad, a sign in the way, the sea below.
+name Harbour Heights
+theme dusk
+gravity 1
+sea 362
+gate 276 364
+start 2
+
+block brick 0 150 116 212          # the old brick tower
+block concrete 0 146 120 6         # its cornice
+block concrete 116 286 52 6        # a ledge on its side
+poly concrete 116 292 140 292 116 312
+block wood 0 356 150 6             # the dock
+
+block concrete 262 276 18 96       # the pier's legs and deck
+block concrete 360 276 18 96
+block concrete 238 270 172 10
+
+block glass 508 112 132 250        # the glass tower
+block concrete 504 108 136 5
+block steel 446 238 62 6           # its balcony
+beam 452 244 508 276
+
+sign pink 158 84 76 26 NOODLES
+
+deco tank 0 146
+deco antenna 628 108
+
+pad 1 14 146 92
+pad 5 120 286 44
+pad 2 244 270 70
+fuel 334 270 70
+pad 3 450 238 54
+pad 4 516 108 104
+
+riders 1>4 5>3 4>2 3>1 2>5 1>up

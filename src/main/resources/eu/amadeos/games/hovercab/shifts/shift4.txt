@@ -1,0 +1,30 @@
+# Shift 4: the old town at night. A deep alley, and a pad under an overhang that is reached from the side.
+name Old Town
+theme night
+gate 200 280
+start 5
+
+block concrete 0 360 640 40          # the cobbled square
+block brick 0 120 90 240             # the tall house on the left
+block brick 170 200 160 160          # the middle block
+block concrete 290 120 30 80         # its clock tower
+poly brick 285 120 305 92 325 120
+block brick 340 150 130 26           # an upper floor reaching over the yard
+block wood 360 300 80 60             # a shed in the yard
+block brick 520 200 120 160          # the house on the right
+
+sign orange 420 66 70 22 BAR
+
+deco lamp 120 360
+deco lamp 480 360
+deco chimney 60 120
+deco chimney 600 200
+
+pad 1 10 120 70
+pad 2 98 360 64
+pad 5 190 200 80
+fuel 360 150 90
+pad 3 364 300 72
+pad 4 535 200 95
+
+riders 1>3 5>2 3>4 2>5 4>1 3>up

@@ -1,0 +1,32 @@
+# Shift 9: the night market. Seven pads close together, signs everywhere and a platform hung from the roof.
+name Night Market
+theme night
+gate 400 480
+start 4
+
+block concrete 0 360 640 40
+block brick 0 260 80 100
+block concrete 110 300 70 60
+block glass 240 180 90 180
+block brick 360 270 80 90
+block concrete 480 160 70 200
+block brick 590 280 50 80
+block steel 100 150 90 10            # a platform hung from the roof on one beam
+beam 104 36 104 150
+
+sign yellow 330 88 60 20 SUSHI
+sign green 556 100 76 20 KARAOKE
+
+deco lamp 220 360
+deco lamp 460 360
+
+pad 1 5 260 70
+pad 2 112 300 66
+fuel 182 360 56
+pad 3 248 180 74
+pad 4 365 270 70
+pad 5 483 160 64
+pad 6 592 280 46
+pad 7 108 150 80
+
+riders 3>6 7>2 1>5 4>7 6>1 2>4 5>3 3>up

@@ -1,0 +1,31 @@
+# Shift 5: a mine. Walls of rock, ledges, a pillar hanging from the roof and pads down on the floor.
+name The Mine
+theme cave
+gate 160 240
+start 4
+
+poly rock 0 36 60 36 50 140 70 220 40 300 60 400 0 400        # the left wall
+poly rock 640 36 580 36 600 120 570 200 610 280 590 400 640 400   # the right wall
+block rock 0 370 640 30                                        # the floor
+poly rock 250 36 380 36 360 110 320 150 280 120                # a pillar from the roof
+block rock 50 200 170 20                                       # a ledge on the left
+poly rock 50 220 220 220 190 240 70 236
+block rock 420 230 170 22                                      # a ledge on the right
+poly rock 430 252 590 252 560 270 450 266
+block rock 470 120 100 16                                      # high up on the right
+poly rock 200 370 215 330 230 370                              # rocks on the floor
+poly rock 340 370 356 322 372 370
+
+deco crystal 470 370
+deco crystal 120 220
+deco lamp 300 370
+deco lamp 540 230
+
+pad 1 80 200 100
+pad 2 450 230 100
+pad 5 476 120 84
+pad 3 80 370 100
+fuel 250 370 76
+pad 4 390 370 110
+
+riders 3>2 1>4 5>3 4>1 2>5 3>up

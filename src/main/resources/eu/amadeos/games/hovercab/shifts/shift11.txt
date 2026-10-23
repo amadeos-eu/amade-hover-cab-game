@@ -1,0 +1,33 @@
+# Shift 11: a storm over the sea. Gusts from the right, a lighthouse, an oil rig and a ship.
+name The Storm
+theme storm
+wind -10 -55 5
+sea 350
+gate 420 500
+start 2
+
+block concrete 30 120 50 240         # the lighthouse
+block glass 36 104 38 16
+poly steel 30 104 55 88 80 104
+block steel 80 220 60 6              # its balcony
+beam 82 226 80 250
+block steel 250 260 12 100           # the oil rig: legs, deck, upper deck
+block steel 360 260 12 100
+block steel 240 250 140 10
+block steel 260 160 100 8
+block steel 314 168 5 82             # the column between the decks
+block steel 470 320 150 30           # a ship: its hull and cabin
+block concrete 560 270 50 50
+poly rock 150 350 170 320 200 330 215 350
+
+deco crane 300 160
+deco antenna 600 270
+
+pad 1 82 220 56
+pad 2 244 250 64
+fuel 324 250 54
+pad 3 262 160 96
+pad 4 480 320 70
+pad 5 562 270 46
+
+riders 4>1 2>5 1>3 5>2 3>4 4>up

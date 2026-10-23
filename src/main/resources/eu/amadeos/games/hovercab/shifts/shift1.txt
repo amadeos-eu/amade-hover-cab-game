@@ -1,0 +1,25 @@
+# Shift 1: three houses on a sunny street. Learn to lift off, sink slowly and stand still.
+name First Fare
+theme day
+gravity 1
+gate 280 360
+start 2
+
+block concrete 0 330 640 70        # the street
+block brick 40 250 140 80
+block concrete 260 200 120 130
+block glass 470 140 130 190
+block concrete 466 136 138 5       # the glass tower's roof edge
+
+deco tree 20 330
+deco tree 205 330
+deco tree 420 330
+deco lamp 236 330
+deco antenna 588 136
+
+pad 1 60 250 100
+pad 2 270 200 100
+pad 3 480 136 110
+fuel 400 330 60
+
+riders 1>3 3>2 2>1 1>up
