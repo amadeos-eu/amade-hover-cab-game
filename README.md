@@ -104,7 +104,7 @@ With `../amade-game-engine` (and `../amade-commons`) checked out next to this re
 
 From the engine: `Speech` and `Phoneme` (formant speech synthesis), `PixelMask`, `Body`, `Thrusters` and `Touchdown`, `DistanceMap`, `TextData`, `HighScores`, `Gamepads`, `GameLoop`, `GameCanvas`, `Sprite`, `Particles`, `Sound`, `Tune` and `Mixer`, `Keyboard` and `Controls`, `SceneStack`, `FullScreen`.
 
-Comments of the form `// --8<-- [start:name]` mark the excerpts the [Game Developer's Handbook](https://datazuul.github.io/amade-game-engine/) quotes; chapter 28 is about this game.
+Comments of the form `// --8<-- [start:name]` mark the excerpts the [Game Developer's Handbook](https://docs.amadeos.eu/amade-game-engine/) quotes; chapter 28 is about this game.
 
 ## Licence
 
