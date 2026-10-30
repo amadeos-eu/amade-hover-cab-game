@@ -56,8 +56,8 @@
     <category>ArcadeGame</category>
   </categories>
 
-  <url type="homepage">https://github.com/datazuul/amade-hover-cab-game</url>
-  <url type="bugtracker">https://github.com/datazuul/amade-hover-cab-game/issues</url>
+  <url type="homepage">https://github.com/amadeos-eu/amade-hover-cab-game</url>
+  <url type="bugtracker">https://github.com/amadeos-eu/amade-hover-cab-game/issues</url>
   <developer id="eu.amadeos">
     <name>amadeOS Project</name>
   </developer>
@@ -69,7 +69,7 @@
       <caption xml:lang="fr">Une course au-dessus des hauts du port, au crépuscule</caption>
       <caption xml:lang="es">Una carrera sobre las alturas del puerto al anochecer</caption>
       <caption xml:lang="it">Una corsa sopra le alture del porto, al tramonto</caption>
-      <image>https://raw.githubusercontent.com/datazuul/amade-hover-cab-game/main/docs/screenshots/amade-hover-cab-game.png</image>
+      <image>https://raw.githubusercontent.com/amadeos-eu/amade-hover-cab-game/main/docs/screenshots/amade-hover-cab-game.png</image>
     </screenshot>
   </screenshots>
 

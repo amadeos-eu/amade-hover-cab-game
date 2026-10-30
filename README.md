@@ -1,6 +1,6 @@
 # amade-hover-cab-game
 
-**amade-hover-cab-game** is the flying cab of the [amadeOS](https://github.com/datazuul/amadeos) desktop: steer a cab with a main jet, side jets and a roof jet against gravity and wind, land gently on numbered pads, pick up the passengers who hail you and fly them to the pad they ask for. Twelve shifts, from the rooftops of a city to a mine, a canyon, a factory with a lift, an orbit station and a storm at sea. The passengers call out in voices made by the engine's speech synthesizer. Built on [amade-game-engine](https://github.com/datazuul/amade-game-engine); runs on other operating systems as well.
+**amade-hover-cab-game** is the flying cab of the [amadeOS](https://github.com/amadeos-eu/amadeos) desktop: steer a cab with a main jet, side jets and a roof jet against gravity and wind, land gently on numbered pads, pick up the passengers who hail you and fly them to the pad they ask for. Twelve shifts, from the rooftops of a city to a mine, a canyon, a factory with a lift, an orbit station and a storm at sea. The passengers call out in voices made by the engine's speech synthesizer. Built on [amade-game-engine](https://github.com/amadeos-eu/amade-game-engine); runs on other operating systems as well.
 
 ![License](https://img.shields.io/badge/license-EUPL--1.2-blue)
 ![Java](https://img.shields.io/badge/Java-25-orange)
